@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="resposive.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </head>
+<body>
+
+  <div id="pre-loader"></div>
+
+  <header class="header1">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <div class="logo d-flex gap-2 align-items-center">
+               <img src="images/non-governmental-organization.png" alt="">
+                <div class="name">
+                    <h3>Hope <span id="spring">Spring</span></h3>
+                    <p>charity and fundraise</p>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse gap-5 justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex gap-md-4 text-white">
+                  <li class="nav-item">
+                    <a class="nav-link hvr-float-shadow active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hvr-float-shadow" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link hvr-float-shadow dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Causes
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="causeslist.html">Causes List</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link hvr-float-shadow dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="volunteers.html"> Our Vulenteers</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link hvr-float-shadow dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Causes List</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hvr-float-shadow" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                  <button class="btn hvr-sweep-to-right donate-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+              </div>
+            </div>
+          </nav>
+    </div>
+</header>
+
+    <section class="hero">
+      <div class="section-top">
+          <div class="container">
+            <div class="mission">
+              <div>
+                <h5><i class="fa-regular fa-heart"></i> Our Mission: Food, Education, Medicine</h5>
+              <h2 data-aos="fade-up">we're on a mission</h2>
+              <h2 data-aos="fade-up">to change world</h2>
+              <div class="button-div d-flex" data-aos="fade-up">
+                <button class="btn hvr-sweep-to-right causes-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">View Causes</p> <i class="fa-regular fa-heart"></i></button>
+                <button class="btn hvr-sweep-to-right  hero-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="photo-div d-flex gap-3" data-aos="fade-up">
+              <div class="left-pic"><img class="img-fluid" src="images/08.jpg" alt=""></div>
+              <div class="div-client d-flex flex-column gap-3">
+                <div class="client text-center">
+                  <h5>25+</h5>
+                  <h6>year of experince</h6>
+                  <img src="images/client.png" alt="">
+                  <h6>globallyclients</h6>
+                </div>
+                <div class="right-down"><img class="img-fluid" src="images/09.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-div">
+              <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> About Us</h6>
+              <h2 data-aos="flip-up">We've Funded <span id="rd-44">44k</span> Dollars Over</h2>
+              <p data-aos="fade-up">There are only a few times in each of our lives that we get to witness a truly historic global ccomplishment: Ending smallpox, tearing.Your $40.00 monthly donation can give 12 people.</p>
+              <ul class="d-flex main-ul d-flex justify-content-between" data-aos="fade-up">
+                <li>
+                  <ul class="d-flex gap-2">
+                    <li><i class="fa-solid fa-check"></i></li>
+                    <li><p class="mb-0">A place in history</p></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="d-flex gap-2">
+                    <li><i class="fa-solid fa-check"></i></li>
+                    <li><p class="mb-0">A place in history</p></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="d-flex main-ul2 d-flex justify-content-between" data-aos="fade-up">
+                <li>
+                  <ul class="d-flex gap-2">
+                    <li><i class="fa-solid fa-check"></i></li>
+                    <li><p class="mb-0">It's about impact, goodness</p></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="d-flex gap-2">
+                    <li><i class="fa-solid fa-check"></i></li>
+                    <li><p class="mb-0">It's about impact, goodness</p></li>
+                  </ul>
+                </li>
+              </ul>
+              <button class="btn hvr-sweep-to-right learn-btn d-flex gap-3 align-items-center" type="submit" data-aos="fade-up"><p class="mb-0">Learn More</p></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-service">
+      <div class="container">
+        <div class="service-div mb-5 d-flex flex-column align-items-center">
+          <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> Our Best Services</h6>
+                <h2 data-aos="flip-up">We Help Poor This Life
+                  Service Now</h2>
+        </div>
+</div>
+      
+<div class="container">
+        <div class="row mb-3" data-aos="fade-up">
+          <div class="col-lg-4 mb-3 mb-md-0">
+            <div class="content-div">
+              <div class="image">
+                <img src="images/01.jpg" alt="">
+              </div>
+              <div class="content">
+                <h4>Fund Poor Treatment</h4>
+                <p>There are only a few times in each of our lives that we get to witness a truly historic global compliment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 mb-md-0">
+            <div class="content-div">
+              <div class="image">
+                <img src="images/02.jpg" alt="">
+              </div>
+              <div class="content">
+                <h4>Money This Treatment</h4>
+                <p>There are only a few times in each of our lives that we get to witness a truly historic global compliment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 mb-md-0">
+            <div class="content-div">
+              <div class="image">
+                <img src="images/03.jpg" alt="">
+              </div>
+              <div class="content">
+                <h4>Fund Hand Children</h4>
+                <p>There are only a few times in each of our lives that we get to witness a truly historic global compliment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-3 mb-md-0" data-aos="fade-right" >
+            <div class="content-div">
+              <div class="image">
+                <img src="images/04.jpg" alt="">
+              </div>
+              <div class="content">
+                <h4>Fund Poor Treatment</h4>
+                <p>There are only a few times in each of our lives that we get to witness a truly historic global compliment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 mb-md-0" data-aos="fade-up">
+            <div class="content-div">
+              <div class="image">
+                <img src="images/05.jpg" alt="">
+              </div>
+              <div class="content">
+                <h4>Money This Treatment</h4>
+                <p>There are only a few times in each of our lives that we get to witness a truly historic global compliment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 mb-md-0" >
+            <div class="content-div">
+              <div class="image">
+                <img src="images/06.jpg" alt="">
+              </div>
+              <div class="content">
+                <h4>Fund Hand Children</h4>
+                <p>There are only a few times in each of our lives that we get to witness a truly historic global compliment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+
+    <section class="our-faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="faq-div">
+              <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> Our Faq Now</h6>
+                <h2 data-aos="flip-up">We’ve Funded 5k
+                  Dollars Over</h2>
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample" data-aos="fade-up">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    How to become a volunteer oin zambia state?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How to customize this theme?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                   how can i give my clothes and other product?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="image-faq" >
+              <img class="faq-main-image img-fluid" data-aos="zoom-in" src="images/faq5.jpg" alt="">
+            <div class="left-bottom" data-aos="zoom-in-right" >
+              <img class="rounded-4 img-fluid" src="images/faq7.jpg" alt="">
+            </div>
+            <div class="right-top"> <img class="img-fluid" src="images/faq6.jpg" alt=""></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about-causes">
+      <div class="container">
+        <div class="causes-div text-center">
+          <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> Help The People</h6>
+                <h2 data-aos="flip-up">Our Popular Causes</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-lg-6"><img src="images/04.png" style="width: 100%;" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <h4 class="mb-3">Care charity names
+                        its new chief</h4>
+                        <p>Under his leadership, we believe
+                          strengthen our position</p>
+                          <div class="text-end">70%</div>
+                          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bar-color" style="width: 70%"></div>
+                          </div>
+                          <ul class="d-flex justify-content-between ps-0">
+                            <li><p>Raised <span class="fw-semibold">$4,407</span></p></li>
+                            <li><p>Goal <span class="fw-semibold">$10.000</span></p></li>
+                          </ul>
+                          <button class="btn hvr-sweep-to-right  causes-donate-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-item" data-aos="fade-up">
+              <div class="row">
+                <div class="col-lg-6"><img class="img-fluid" style="width: 100%;" src="images/05.png" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <h4 class="mb-3">Our Donation Is Hope For Poor Children's</h4>
+                        <p>Under his leadership, we believe
+                          strengthen our position</p>
+                          <div class="text-end">45%</div>
+                          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bar-color" style="width: 45%"></div>
+                          </div>
+                          <ul class="d-flex justify-content-between ps-0">
+                            <li><p>Raised <span class="fw-semibold">$3,000</span></p></li>
+                            <li><p>Goal <span class="fw-semibold">$8.000</span></p></li>
+                          </ul>
+                          <button class="btn hvr-sweep-to-right  causes-donate-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-lg-6"><img class="img-fluid" style="width: 100%;" src="images/06.png" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <h4 class="mb-3">Raise Fund For Clean & Healthy Water</h4>
+                        <p>Under his leadership, we believe
+                          strengthen our position</p>
+                          <div class="text-end">65%</div>
+                          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bar-color" style="width: 65%"></div>
+                          </div>
+                          <ul class="d-flex justify-content-between ps-0">
+                            <li><p>Raised <span class="fw-semibold">$6,370</span></p></li>
+                            <li><p>Goal <span class="fw-semibold">$10.000</span></p></li>
+                          </ul>
+                          <button class="btn hvr-sweep-to-right  causes-donate-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-lg-6"><img class="img-fluid" style="width: 100%;" src="images/07.png" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <h4 class="mb-3">Emergency Response And Schools Food</h4>
+                        <p>Under his leadership, we believe
+                          strengthen our position</p>
+                          <div class="text-end">90%</div>
+                          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bar-color" style="width: 90%"></div>
+                          </div>
+                          <ul class="d-flex justify-content-between ps-0">
+                            <li><p>Raised <span class="fw-semibold">$4,470</span></p></li>
+                            <li><p>Goal <span class="fw-semibold">$8.000</span></p></li>
+                          </ul>
+                          <button class="btn hvr-sweep-to-right  causes-donate-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="charity-fund">
+      <div class="fund-name">
+        <div class="container">
+          <div class=" fund text-center">
+            <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> Make Donation</h6>
+                  <h2 data-aos="flip-up">Miranda Halim Charity Fund</h2>
+          </div>
+          <div class="donate-amount d-flex justify-content-center gap-5 flex-wrap" data-aos="fade-up">
+                <div><p class="mb-0">$5</p></div>
+                <div><p class="mb-0">$10</p></div>
+                <div><p class="mb-0">$100</p></div>
+                <div><p class="mb-0">custom</p></div>
+          </div>
+          <div class="d-flex justify-content-center" data-aos="fade-up"><button class="btn hvr-sweep-to-right donate-amount-btn d-flex gap-3 align-items-center" type="submit"><i class="fa-regular fa-heart"></i><p class="mb-0">Donate Now</p> </button></div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section class="our-events">
+      <div class="container">
+
+        <div class="causes-div text-center">
+          <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> our event</h6>
+                <h2 data-aos="flip-up">Our Upcoming Event</h2>
+        </div>
+        </div>
+       
+        <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-6"  data-aos="fade-up">
+            <div class="card-item mb-3 mb-md-0">
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center"><img src="images/04.jpg" style="width: 100%;" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <ul class="d-flex gap-4">
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-solid fa-calendar-days"></i></li>
+                            <li><p> 13 Nov 2024</p></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><p>  10:00 PM</p></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="d-flex gap-3 mb-3 mt-3">
+                        <li><i class="fa-solid fa-location-dot"></i></li>
+                        <p> 66 Broklyant, New York India</p>
+                      </ul>
+
+                      <h4 class="mb-3">Rebecca's Album Supports Needy</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+                          eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card-item mb-3 mb-md-0">
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center"><img src="images/06.jpg" style="width: 100%;" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <ul class="d-flex gap-4">
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-solid fa-calendar-days"></i></li>
+                            <li><p> 13 Nov 2024</p></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><p>  10:00 PM</p></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="d-flex gap-3 mb-3 mt-3">
+                        <li><i class="fa-solid fa-location-dot"></i></li>
+                        <p> 66 Broklyant, New York India</p>
+                      </ul>
+
+                      <h4 class="mb-3">Be Hungry No More and Leave</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+                          eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center"><img class="img-fluid" src="images/01.jpg" style="width: 100%;" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <ul class="d-flex gap-4">
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-solid fa-calendar-days"></i></li>
+                            <li><p> 13 Nov 2024</p></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><p>  10:00 PM</p></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="d-flex gap-3 mb-3 mt-3">
+                        <li><i class="fa-solid fa-location-dot"></i></li>
+                        <p> 66 Broklyant, New York India</p>
+                      </ul>
+
+                      <h4 class="mb-3">Help Us Touch Their Live</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+                          eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center"><img src="images/02.jpg" style="width: 100%;" alt="">    </div>
+                  <div class="col lg-6 d-flex align-items-center">
+                    <div>
+                      <ul class="d-flex gap-4">
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-solid fa-calendar-days"></i></li>
+                            <li><p> 13 Nov 2024</p></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="d-flex gap-2">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><p>  10:00 PM</p></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="d-flex gap-3 mb-3 mt-3">
+                        <li><i class="fa-solid fa-location-dot"></i></li>
+                        <p> 66 Broklyant, New York India</p>
+                      </ul>
+
+                      <h4 class="mb-3">Charities Learn Forward</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+                          eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container">
+        <div class="testimonial1 text-center">
+          <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> Clients Testimonials</h6>
+                <h2 data-aos="flip-up">The Heart Warming Testimonies
+                  Of Excellence</h2>
+        </div>
+
+<div class="owl-carousel gap-3 owl-theme">
+  <div class="item">
+   <div class="quality-service">
+   <div class="d-flex justify-content-between mb-5">
+    <div><img src="images/quote2.png" alt=""></div>
+    <div><h4>quality service</h4>
+    <ul class="d-flex gap-1">
+      <li><i class="fa-solid fa-star"></i></li>
+      <li><i class="fa-solid fa-star"></i></li>
+      <li><i class="fa-solid fa-star"></i></li>
+      <li><i class="fa-solid fa-star"></i></li>
+      <li><i class="fa-solid fa-star"></i></li>
+    </ul>
+    </div>
+   </div>
+   <p><span id="invited-coma">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum temporibus debitis deserunt atque qui provident nobis illum maiores minus architecto?</p>
+   <div class="client-div mt-4 d-flex align-items-center gap-4">
+    <div class="client-pic"><img src="images/client 2.png" alt=""></div>
+    <div class="client-name"><h3>James N. Jhonson</h3>
+      <p>CEO & founder</p>
+    </div>
+   </div>
+   </div>
+</div>
+  <div class="item">
+    <div class="quality-service">
+      <div class="d-flex justify-content-between mb-5">
+       <div><img src="images/quote2.png" alt=""></div>
+       <div><h4>quality service</h4>
+       <ul class="d-flex gap-1">
+         <li><i class="fa-solid fa-star"></i></li>
+         <li><i class="fa-solid fa-star"></i></li>
+         <li><i class="fa-solid fa-star"></i></li>
+         <li><i class="fa-solid fa-star"></i></li>
+         <li><i class="fa-solid fa-star"></i></li>
+       </ul>
+       </div>
+      </div>
+      <p><span id="invited-coma">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum temporibus debitis deserunt atque qui provident nobis illum maiores minus architecto?</p>
+      <div class="client-div mt-4 d-flex align-items-center gap-4">
+       <div class="client-pic"><img src="images/client2.png" alt=""></div>
+       <div class="client-name"><h3>David k. mcinney</h3>
+         <p>senior manager</p>
+       </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+
+      </div>
+    </section>
+
+    <section class="best-team">
+      
+     <div class="container">
+      <div class="service-div mb-5 d-flex flex-column align-items-center">
+        <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i> Best Team</h6>
+              <h2 data-aos="flip-up">Our Volunteers</h2>
+      </div>
+     </div>
+      
+
+      <div class="container-fluid">
+      <div class="row" data-aos="fade-up">
+        <div class="col-lg-3 img-div mb-3 mb-md-0"><img class="img-fluid" src="images/04 (1).jpg" alt="">
+          <div class="information">
+            <p class="text-capitalize">head of idea</p>
+            <ul class="d-flex justify-content-between">
+              <li><h4>Rosalina D. William</h4></li>
+              <li class="plus-icon d-flex align-items-center"><i class="fa-solid fa-plus"></i></li>
+            </ul>
+          </div>
+          <!-- <ul class="info-social">
+            <li><i class="fa-brands fa-pinterest-p"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+          </ul> -->
+
+        </div>
+        <div class="col-lg-3 img-div mb-3 mb-md-0"><img class="img-fluid" src="images/05 (1).jpg" alt="">
+          
+          <div class="information">
+            <p class="text-capitalize">head of idea</p>
+            <ul class="d-flex justify-content-between">
+              <li><h4>Rosalina D. William</h4></li>
+              <li class="plus-icon d-flex align-items-center"><i class="fa-solid fa-plus"></i></li>
+            </ul>
+          </div>
+          <!-- <ul class="info-social">
+            <li><i class="fa-brands fa-pinterest-p"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+          </ul> -->
+        </div>
+        <div class="col-lg-3 img-div mb-3 mb-md-0"><img class="img-fluid" src="images/06 (1).jpg" alt="">
+        
+
+          <div class="information">
+            <p class="text-capitalize">head of idea</p>
+            <ul class="d-flex justify-content-between">
+              <li><h4>Rosalina D. William</h4></li>
+              <li class="plus-icon d-flex align-items-center"><i class="fa-solid fa-plus"></i></li>
+            </ul>
+          </div>
+          <!-- <ul class="info-social">
+            <li><i class="fa-brands fa-pinterest-p"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+          </ul> -->
+        </div>
+        <div class="col-lg-3 img-div"><img class="img-fluid" src="images/07.jpg" alt="">
+        
+          <div class="information">
+            <p class="text-capitalize">head of idea</p>
+            <ul class="d-flex justify-content-between">
+              <li><h4>Rosalina D. William</h4></li>
+              <li class="plus-icon d-flex align-items-center"><i class="fa-solid fa-plus"></i></li>
+            </ul>
+          </div>
+          <!-- <ul class="info-social">
+            <li><i class="fa-brands fa-pinterest-p"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <section class="recent-news">
+      <div class="container">
+        <div class="service-div mb-5 d-flex flex-column align-items-center">
+          <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i>News & Articles</h6>
+                <h2 data-aos="flip-up">Recent News</h2>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-4 mb-4 mb-md-0">
+            <div class="Food donation-hover">
+              <div class="online-donation d-flex flex-column justify-content-between">
+                <div class="date d-flex flex-column justify-content-center align-items-center">
+                  <h3>20</h3>
+                  <h3>Feb</h3>
+                </div>
+                <div class="food-donation">
+                  <p>Food</p>
+                  <h4>Take Your Online Donation to the Next Level!</h4>
+                  <div class="coments d-flex justify-content-between align-items-center">
+                    <p><i class="fa-regular fa-message"></i> 02 coments</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-md-0">
+            <div class="water donation-hover">
+              <div class="online-donation d-flex flex-column justify-content-between">
+                <div class="date d-flex flex-column justify-content-center align-items-center">
+                  <h3>22</h3>
+                  <h3>Apr</h3>
+                </div>
+                <div class="food-donation">
+                  <p>Water</p>
+                  <h4>Providing Clean Water on the Blue Planet</h4>
+                  <div class="coments d-flex justify-content-between align-items-center">
+                    <p><i class="fa-regular fa-message"></i> 02 coments</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="children donation-hover">
+              <div class="online-donation d-flex flex-column justify-content-between">
+                <div class="date d-flex flex-column justify-content-center align-items-center">
+                  <h3>20</h3>
+                  <h3>Feb</h3>
+                </div>
+                <div class="food-donation">
+                  <p>Children</p>
+                  <h4>Take Your Online Donation to the Next Level!</h4>
+                  <div class="coments d-flex justify-content-between align-items-center">
+                    <p><i class="fa-regular fa-message"></i> 02 coments</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30442.63239114043!2d78.37399598230016!3d17.4917990884281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1247%2Fplot%20no.39%2C%2015th%20phase%20%20colony%2C%20kukatpalli%2C%20hydrabad!5e0!3m2!1sen!2sin!4v1742616159631!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6">
+            <div class="service-div mb-2 d-flex flex-column align-items-center">
+              <h6 data-aos="fade-up"><i class="fa-regular fa-heart"></i>News & Articles</h6>
+                    <h2 data-aos="flip-up">Recent News</h2>
+            </div>
+            <form action="">
+              <div class="row mb-3 m">
+                <div class="col-lg-6 mb-3 mb-md-0">
+                  <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" name="email" id="email1" placeholder="Email Address">
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-lg-6 mb-3 mb-md-0">
+                  <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                </div>
+                <div class="col-lg-6 mb-3">
+                  
+                  <select id="subject" name="subject" aria-placeholder="subject">
+                    <option value="australia">Volunteer</option>
+                    <option value="canada">Donation</option>
+                    <option value="usa">Food Donation</option>
+                  </select>
+                </div>
+
+                <div class="col-lg-12">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer-home">
+
+      <div class="container">
+  
+          <div class="row foot-row">
+              <div class="col-lg-4">
+                  <div class="coursehub">
+                      <div class="logo d-flex gap-2 align-items-center">
+                   <img src="images/non-governmental-organization.png" alt="">
+                    <div class="name">
+                        <h3>Hope <span id="spring">Spring</span></h3>
+                        <p class="pt-0 pb-0">charity and fundraise</p>
+                    </div>
+                  </div>
+                      <p>Sed commodo sit amet ante et ullamcorper. Integer vestibulum non justo id aliquet. Nam iaculis egestas mi, consectetur facilisis erat bibendum eu.</p>
+                      <h3 class="mb-4">Follow us</h3>
+                      <ul class="d-flex gap-3">
+                          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-2">
+                  <div class="our-link text-white">
+                      <h3 class="mb-4">Useful link</h3>
+                      <ul>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>About Us</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Popular Causes</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Upcoming Events</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Our Volunteers</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Latest News</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="our-link text-white">
+                      <h3 class="mb-4">Legal</h3>
+                      <ul>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Term Of Use</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Privacy Policy</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Report Violation</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Cookies</a></li>
+                          <li><a href=""><i class="fa-solid fa-plus"></i>Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="our-link contact-us text-white">
+                      <h3 class="mb-4">Contact us</h3>
+                      <ul>
+                          <li class="d-flex gap-3 align-items-center">
+                              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                              <div class="details"><p>1247/plot no.39, 15th phase</p>
+                                  <p>colony, kukatpalli, hydrabad</p>
+                              </div>
+                          </li>
+                          <li class="d-flex gap-3 align-items-center">
+                              <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                              <div class="details"><p>+919735770213</p>
+                                  <p>+919641556741</p>
+                              </div>
+                          </li>
+                          <li class="d-flex gap-3 align-items-center">
+                              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                              <div class="details"><p>jdgdjas@gmail.com</p>
+                                  <p>djcdjk@gmail.com</p>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+     </footer>
+     
+
+     <div class="videos">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GLL9844LLf8?si=YacLUILX2vx8OAbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FVnrfuz9y0Y?si=REHtNyiWovZjlbQq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FVnrfuz9y0Y?si=REHtNyiWovZjlbQq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FVnrfuz9y0Y?si=REHtNyiWovZjlbQq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+ 
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    
+    
+    <script>
+      var loader = document.getElementById("pre-loader");
+  
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+     </script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  autoplay:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:1,
+          nav:false
+      },
+      1000:{
+          items:2,
+          nav:true,
+          loop:true
+      }
+  }
+})
+  </script>
+
+
+
+</body>
+</html>

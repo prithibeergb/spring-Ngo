@@ -1,0 +1,176 @@
+
+@media ( max-width:768px){
+
+    @keyframes hero-h5 {
+        100%{
+            transform: translate(0);
+        }
+    }
+
+    .mission h2{
+        font-size: 3.3em !important;
+       }
+
+    .container-about-page{
+        max-width: 650px !important;
+        margin: 0 auto;
+     }
+      .our-service,
+      .our-faq,
+      .about-us {
+        padding: 2em 0;
+    }
+    body h2{
+        font-size: 2.8em !important;
+        width: 100% !important;
+    }
+    .about-div p {
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+}
+.life-changev h2 {
+     width: 100%;
+     /* font-size: 2em !important; */
+}
+.colum2 {
+    width: 33%;
+}
+
+
+
+.join-btn {
+    bottom: 8px;
+}
+.testimonial1 {
+    font-size: .7em;
+}
+.footer-div{
+    padding: 2em 0;
+    width: 100%;
+    background: white;
+
+}
+.footer-about ul li p {
+    color: rgb(110, 110, 110) !important;
+}
+
+#tabs-1 {
+    padding: 0;
+}
+}
+
+
+
+
+@media only screen and (max-width: 550px) {
+   .mission h2{
+    font-size: 2.8em !important;
+   }
+   .our-service {
+    padding: 50px 0;
+}
+body h2{
+    font-size: 1.7em !important;
+}
+@keyframes hero-h5 {
+    100%{
+        transform: translate(0);
+    }
+}
+.our-faq {
+    padding: 4em 0;
+}
+.about-causes {
+    padding: 2em 0;
+    background: #f2f2f2;
+}
+.service-div h2 {
+    font-family: "Chelsea Market", system-ui;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+.quality-service {
+    padding: 15px 20px;
+}
+.quality-service p {
+    font-size: 14px;
+    padding: 0 20px;
+    color: #848383;
+}
+.about-div h2 {
+    font-family: "Chelsea Market", system-ui;
+    font-size: 2em;
+    margin: 25px 0;
+}
+.main-ul {
+    width: 74%;
+}
+.faq-main-image {
+    clip-path: polygon(0 0, 100% 23%, 100% 100%, 0% 100%);
+    width: 100%;
+}
+.image-faq {
+    position: relative;
+    margin-left: 0;
+}
+.right-top img {
+    width: 40%;
+    right: 0;
+}
+.colum2{
+    width: 100%;
+    background-size: cover;
+}
+.join-btn {
+    bottom: 10px;
+}
+.valunteers {
+    padding: 2em 0;
+}
+.footer-div{
+    padding: 2em 0;
+    width: 100%;
+    background: white;
+
+}
+.container-about-page{
+    max-width: 450px !important;
+    margin: 0 auto;
+  }
+  .all-categories {
+    padding: 2em 0;
+}
+.about-us {
+    padding: 3em 0;
+}
+.wer{
+    padding-top: 1rem !important;
+}
+#tabs-1{
+    padding: 0 0;
+   }
+.footer-about ul li p {
+    color: rgb(110, 110, 110);
+}
+.contact-map .contact-form{
+    width: 100%;
+  }
+.contact-map .map{
+    width: 100%;
+    overflow: hidden;
+  }
+  .left-bottom{
+    position: absolute;
+    left: 0;
+    bottom: -2.5em;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  
+  }
+
+}
+
+
+

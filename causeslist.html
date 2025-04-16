@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="resposive.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+</head>
+<body>
+
+    <header class="header1">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <div class="logo d-flex gap-2 align-items-center">
+                   <img src="images/non-governmental-organization.png" alt="">
+                    <div class="name">
+                        <h3>Hope <span id="spring">Spring</span></h3>
+                        <p>charity and fundraise</p>
+                    </div>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse gap-5 justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex gap-md-4 text-white">
+                      <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link hvr-float-shadow dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Causes
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Causes List</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="nav-item dropdown">
+                        <a class="nav-link hvr-float-shadow dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="volunteers.html"> Our Vulenteers</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link hvr-float-shadow dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Causes List</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-float-shadow" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                      <button class="btn hvr-sweep-to-right donate-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Donate Now</p> <i class="fa-regular fa-heart"></i></button>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="full-about-us">
+            <div class="container-about-page">
+             <div class="about-us-top">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h6>Our Mission: Food, Education, Medicine</h6>
+                  <h2>
+                    Causes</h2>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                  <ul class="d-flex gap-4 align-items-center" >
+                    <li><p id="home">Home</p></li>
+                    <li><i class="fa-solid fa-minus" style="color: #ff0000;"></i></li>
+                    <li><p>
+                        Our Causes</p></li>
+                  </ul>
+                </div>
+              </div>
+             </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-categories">
+      <div class="container">
+        <div id="tabs">
+          <ul>
+            <li class="mb-3 mb-md-0"><a href="#tabs-1">All Categories</a></li>
+            <li class="mb-3 mb-md-0"><a href="#tabs-2">Education</a></li>
+            <li class="mb-3 mb-md-0"><a href="#tabs-3">Medicine</a></li>
+            <li class="mb-3 mb-md-0"><a href="#tabs-4">Food</a></li>
+            <li class="mb-3 mb-md-0"><a href="#tabs-5">Water</a></li>
+            
+          </ul>
+          <div id="tabs-1" class="pt-5">
+            <div class="row mb-4">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <div id="tabs-2">
+            <div class="row">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tabs-3">
+            <div class="row mb-4">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tabs-4">
+            <div class="row mb-4 mb-3 mb-md-0">
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+
+          <div id="tabs-5">
+            <div class="row mb-4">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3 mb-md-0">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/012.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="content-div1">
+                  <div class="image">
+                    <img class="img-fluid" src="images/022.jpg" alt="">
+                  </div>
+                  <div class="content1">
+                    <ul class="d-flex gap-4 align-items-center">
+                      <li class="water-div">Water</li>
+                      <li><i class="fa-regular fa-user me-2"></i>By Miranda H.</li>
+                    </ul>
+                    <h4 class="mt-3 mb-4">Because Everyone Deserves
+                      Clean Water</h4>
+  
+                      <div class="progress pg-bar1" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 60%"></div>
+                      </div>
+  
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>70 raised</p>
+                      </li>
+                      
+                      <li class="d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>$ 3000 Goals</p>
+                      </li>
+  
+                      <li><i class="fa-solid fa-share"></i></li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+    <section class="life-changing-video2 mb-5">
+      <div class="container">
+        <div class="life-changing-bg">
+          <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-8">
+              
+              <div class="life-changev d-flex flex-column align-items-center">
+                <h6><i class="fa-regular fa-heart"></i> Life Changing Video</h6>
+                      <h2 class="fs-1">Joel Orphanage Of
+                        Ministry Uganda</h2>
+                        
+  
+              </div>
+
+              <div class="d-flex justify-content-center gap-3">
+                <button class="btn hvr-sweep-to-right causes-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Careers</p> <i class="fa-regular fa-heart"></i></button>
+                <button class="btn hvr-sweep-to-right  hero-btn d-flex gap-3 align-items-center" type="submit"><p class="mb-0">Intership</p> <i class="fa-regular fa-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer-about">
+      <div class="footer-div">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h3 class="text-white mb-4 fs-4">Get In Touch</h3>
+              <ul class="d-flex align-items-center gap-3 mb-3">
+                <li class="phone-icon"><i class="fa-solid fa-phone"></i></li>
+                <li>
+                  <p>+000 (123) 456 88</p>
+                  <p>+000 (123) 456 88</p>
+                </li>
+              </ul>
+              <ul class="d-flex align-items-center gap-3 mb-3">
+                <li class="email-icon"><i class="fa-solid fa-envelope"></i></li>
+                <li>
+                  <p>info@example.com</p>
+                  <p>jobs@example.com</p>
+                </li>
+              </ul>
+              <ul class="d-flex align-items-center gap-3">
+                <li class="location-icon"><i class="fa-solid fa-location-dot"></i></li>
+                <li>
+                  <p>55 Main Street, 2nd block</p>
+                  <p>Malborne, Australia</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h3 class="mb-4">About Us</h3>
+              <ul>
+                <li><a href="">about</a></li>
+                <li><a href="">Faq</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Event details</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-2">
+              
+              <ul class="pt-5 wer">
+                <li><a href="">causes list</a></li>
+                <li><a href="">Donation</a></li>
+                <li><a href="">careers</a></li>
+                <li><a href="">Get a Quote</a></li>
+                <li><a href="">Terms and condition</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h3 class="mb-4">popular causes</h3>
+              <ul>
+                <li><a href="">Water purify</a></li>
+                <li><a href="">Food Collect</a></li>
+                <li><a href="">Health fund</a></li>
+                <li><a href="">Free Education</a></li>
+                <li><a href="">Poor Health</a></li>
+                <li><a href="">Live Donation</a></li>
+                <li><a href="">Stream Donation</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </footer>
+
+    
+
+    <!-- <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+     
+
+    <script>
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
+      </script>
+
+   <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
